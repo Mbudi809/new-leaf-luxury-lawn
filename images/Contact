@@ -1,0 +1,83 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+git add .
+
+git commit -m "Add Contact page with contact form and business information"
+
+header {
+
+    background-color: #1b5e20;
+
+    color: ::-webkit-validation-bubble-arrow;
+
+    padding: 20px;
+
+}
+
+
+nav ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+
+nav ul li {
+
+    display: inline;
+
+    margin-right: 20px;
+
+}
+
+
+nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+main {
+
+    max-width: 1100px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+
+}
+
+
+h1 {
+
+    color: #2e7d32;
+
+}
+
+
+h2 {
+
+    color: #1b5e20;
+
+}
+
+
+iframe {
+
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+}

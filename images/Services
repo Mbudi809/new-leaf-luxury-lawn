@@ -1,0 +1,254 @@
+<h1>Your Private Resort, Always in Bloom.</h1>
+git commit -m "Added services page"
+
+``
+
+<h2>Residential Turf: Effortless Elegance for Your Home</h2>
+
+
+<p>
+
+    Transform your residential landscape into a private oasis.
+
+    Whether you are looking to revitalise your front yard curb appeal,
+
+    create a safe and mud-free backyard play area for children and pets,
+
+    or frame a stunning poolside retreat, our residential luxury lawns
+
+    deliver unmatched beauty with zero weekend maintenance.
+
+</p>
+
+
+<h3>Key Applications</h3>
+
+
+<ul>
+
+    <li><strong>Front Yard Curb Appeal:</<h2>Pet-Friendly Lawns: Clean, Safe &amp; Odour-Free</h2>
+
+
+<h3>Luxury Designed for Every Member of the Family — Paws Included.</h3>
+
+
+<p>
+
+    Love your pets, but hate the yellow spots, mud tracking and torn-up grass?
+
+    Our specialised pet-friendly turf systems are engineered from the ground up
+
+    to keep your furry friends safe, happy and your yard pristine.
+
+</p>
+
+
+<h3>Why Pet Owners Choose New Leaf Luxury Lawn</h3>
+
+
+<ul>
+
+    <li>
+
+        <strong>Advanced Drainage Systems:</strong>
+
+        Premium permeable backing combined with antimicrobial infill
+
+        prevents liquid absorption and neutralises odours.
+
+    </li>
+
+
+    <li>
+
+        <strong>No Mud, No Mess:</strong>
+
+        Keep paws clean and prevent pets from tracking dirt and mud
+
+        through your.portfolio-image{
+
+    width: 700px;
+
+    height: 500px;
+
+    background: linear-gradient(to bottom, #1b5e20, #6aa84f);
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    text-align: center;
+
+    margin: 20px auto;
+
+}
+
+
+.portfolio-image h2{
+
+    font-size: 2rem;
+
+    margin-bottom: 10px;
+
+}
+
+
+.portfolio-image p{
+
+    font-size: 1rem;
+
+}.portfolio-image{
+
+    width: 700px;
+
+    height: 500px;
+
+    background: linear-gradient(to bottom, #1b5e20, #6aa84f);
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    text-align: center;
+
+    margin: 20px auto;
+
+}
+
+
+.portfolio-image h2{
+
+    font-size: 2rem;
+
+    margin-bottom: 10px;
+
+}
+
+
+.portfolio-image p{
+
+    font-size: 1rem;
+
+}.gallery-placeholder.corporate{
+
+    height: 400px;
+
+    background: linear-gradient(to bottom, #3a3a3a, #b3b3b3);
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    margin: 20px 0;
+
+}
+
+
+.gallery-placeholder.corporate h3{
+
+    font-size: 2rem;
+
+    margin-bottom: 10px;
+
+}
+
+
+.gallery-placeholder.corporate p{
+
+    font-size: 1rem;
+
+}.gallery-placeholder.putting-green{
+
+    height: 400px;
+
+    background: linear-gradient(to bottom, #1f6b3d, #7cc576);
+
+    color: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    margin: 20px 0;
+
+}
+
+
+.gallery-placeholder.putting-green h3{
+
+    font-size: 2rem;
+
+    margin-bottom: 10px;
+
+}
+
+
+.gallery-placeholder.putting-green p{
+
+    font-size: 1rem;
+
+}
+ <h3>Smart Luxury for a Sustainable Future.</h3>
+
+
+<p>
+
+    Choosing artificial turf from New Leaf Luxury Lawn is not just
+
+    an aesthetic upgrade, it is an investment in environmental
+
+    responsibility. We combine cutting-edge materials science with
+
+    eco-conscious design principles.
+
+</p>
+
+
+<h3>Key Sustainable Benefits</h3>
+
+
+<ul>
+
+    <li>
+
+        <strong>Water Conservation:</strong>
+
+        Save thousands of litres of municipal water annually in
+
+        drought-prone or water-restricted regions.
+
+    </li>
+
+
+    <li>
+
+        <strong>Zero Chemicals:</strong>
+
+        Eliminate the need for toxic pesticides, synthetic weed killers
+ 

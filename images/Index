@@ -1,0 +1,114 @@
+.hero-placeholder{
+
+    height: 500px;
+
+    background: linear-gradient(to bottom, #1b5e20, #6aa84f);
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    text-align: center;
+
+}<section class="home-intro">
+git add .
+
+git commit -m "Create index page structure"
+ 
+
+    <h1>A Fresh Start for Your Lawn.</h1>
+
+
+    <p>
+
+        Professional lawn care and garden maintenance designed
+
+        to keep your outdoor space looking fresh, neat and beautiful.
+
+    </p>
+
+
+    https://wa.me/27670092754WhatsApp Us</a>
+
+    services.htmlExplore Our Services</a>
+
+    quote.htmlGet a Quote</a>
+<section class="services-preview">
+
+
+    <div class="service-card">
+
+        <h3>Garden Maintenance</h3>
+
+        <p>
+
+            Regular garden care to keep your outdoor space
+
+            looking fresh throughout the year.
+
+        </p>
+
+    </div>
+
+
+    <div class="service-card">
+
+        <h3>Hedge Trimming</h3>
+
+        <p>
+
+            Keep your hedges neat, shaped and looking
+
+            their best.
+
+        </p>
+
+    </div>
+
+
+    <div class="service-card">
+
+        <h3>Garden Clean-Ups</h3>
+
+        <p>
+
+            Clear away overgrown grass, leaves and garden
+
+            waste to refresh your space.
+
+        </p>
+
+    </div>
+
+
+    <div class="service-card">
+
+        <h3>Regular Maintenance</h3>
+
+        <p>
+
+            Convenient recurring lawn and garden maintenance
+           <section class="hero"><img src="images/hero-lawn.jpg" alt="Aerial view of a luxury manicured lawn and garden estate at sunset">
+    <div class="hero-text">
+        ...
+    </div>
+</section>
+<section class="hero">
+    <img src="images/hero-lawn.jpg" alt="Aerial view of a luxury manicured lawn and garden estate at sunset">
+    <div class="hero-text">
+        <h1>A Fresh Start for Your Lawn.</h1>
+        <p>Professional lawn care and garden maintenance designed to keep your outdoor space looking fresh, neat and beautiful.</p>
+        <p class="cta-group">
+            <a href="https://wa.me/27670092754" class="btn">WhatsApp Us</a>
+            <a href="services.html" class="btn btn-secondary">Explore Our Services</a>
+            <a href="enquiry.html" class="btn btn-secondary">Get a Quote</a>
+        </p>
+    </div>
+    <img src="images/hero-lawn.jpg" alt="Aerial view of a luxury manicured lawn and garden estate at sunset">
+</section>

@@ -1,0 +1,28 @@
+#
+
+
+    <h1>Request a Free Quote</h1>
+git commit -m "Added enquiry form page with customer contact and service request fields"
+
+    <p>Tell us a little about your property and the service you're interested in, and we'll get back to you with pricing and availability.</p>
+
+
+    <label for="fullname">Full Name *</label><br>
+
+    <input type="text" id="fullname" name="fullname" placeholder="e.g. Thandolwethu Nkonde" required><br><br>
+
+
+    <label for="email">Email Address *</label><br>
+
+    <input type="email" id="email" name="email" placeholder="e.g. Thandolwethu@example.com" required><br><br>
+
+
+    <label for="phone">Phone Number *</label><br>
+
+    <input type="tel" id="phone" name="phone" placeholder="e.g. 082 123 4567" required><br><br>
+
+
+    <label for="suburb">Suburb / Area *</label><br>
+
+    <input type="text" id="suburb" name="suburb" placeholder="e.g. Fourways" required
+    

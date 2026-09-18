@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Quote | New Leaf Luxury Lawn</title>
+    <meta name="description" content="Request a free, no-obligation quote from New Leaf Luxury Lawn for residential, commercial, pet-friendly or putting green turf installation.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">New Leaf Luxury Lawn</div>
+        <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html" aria-current="page">Get a Quote</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h1>Request a Free Quote</h1>
+            <p>Tell us a little about your property and the service you're interested in, and we'll get back to you with pricing and availability.</p>
+        </section>
+
+        <!-- ============ ENQUIRY / QUOTE REQUEST FORM ============ -->
+        <!-- Note: HTML5 validation attributes (required, pattern, type) are in place now. -->
+        <!-- Full client-side JavaScript validation and a processed response message -->
+        <!-- (cost / availability estimate) will be implemented in Part 3. -->
+        <section class="form-section">
+            <form id="enquiry-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="full-name">Full Name *</label>
+                    <input type="text" id="full-name" name="full-name" required minlength="2" placeholder="e.g. Thandi Nkosi">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="e.g. thandi@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9+\s]{10,15}" placeholder="e.g. 082 123 4567">
+                </div>
+
+                <div class="form-group">
+                    <label for="suburb">Suburb / Area *</label>
+                    <input type="text" id="suburb" name="suburb" required placeholder="e.g. Fourways">
+                </div>
+
+                <div class="form-group">
+                    <label for="property-type">Property Type *</label>
+                    <select id="property-type" name="property-type" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="residential">Residential Home</option>
+                        <option value="complex">Residential Complex / Estate</option>
+                        <option value="commercial">Commercial / Office</option>
+                        <option value="hospitality">Hotel / Hospitality</option>
+                    </select>
+                </div>
+
+                <fieldset class="form-group">
+                    <legend>Service(s) of Interest *</legend>
+                    <label><input type="checkbox" name="service" value="residential-turf"> Residential Turf</label>
+                    <label><input type="checkbox" name="service" value="commercial-turf"> Commercial Turf</label>
+                    <label><input type="checkbox" name="service" value="pet-friendly"> Pet-Friendly Lawn</label>
+                    <label><input type="checkbox" name="service" value="putting-green"> Putting Green</label>
+                    <label><input type="checkbox" name="service" value="maintenance"> Ongoing Lawn/Garden Maintenance</label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="area-size">Approximate Area Size (m&sup2;)</label>
+                    <input type="number" id="area-size" name="area-size" min="1" placeholder="e.g. 60">
+                </div>
+
+                <div class="form-group">
+                    <label for="preferred-date">Preferred Site-Visit Date</label>
+                    <input type="date" id="preferred-date" name="preferred-date">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Additional Details</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us more about your project..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn">Submit Enquiry</button>
+                </div>
+
+                <!-- Placeholder for the JavaScript-generated response message (Part 3) -->
+                <p id="form-response" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section class="alt-contact">
+            <p>Prefer to chat directly? <a href="https://wa.me/27670092754">Message us on WhatsApp</a> or call <a href="tel:+27670092754">+27 67 009 2754</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>New Leaf Luxury Lawn &mdash; Serving Johannesburg's Northern Suburbs</p>
+        <p>Tel/WhatsApp: <a href="tel:+27670092754">+27 67 009 2754</a></p>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Get a Quote</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 New Leaf Luxury Lawn. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

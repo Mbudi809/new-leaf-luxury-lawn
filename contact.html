@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | New Leaf Luxury Lawn</title>
+    <meta name="description" content="Get in touch with New Leaf Luxury Lawn. Find our Fourways and Sandton service hubs, phone/WhatsApp details, and send us a message.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">New Leaf Luxury Lawn</div>
+        <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Get a Quote</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h1>Get in Touch</h1>
+            <p class="subheadline">Let's talk lawns.</p>
+            <p>Ready to give your garden a fresh start? Contact New Leaf Luxury Lawn for a quote.</p>
+        </section>
+
+        <!-- ============ CONTACT DETAILS ============ -->
+        <section class="contact-details">
+            <h2>Contact Details</h2>
+            <ul>
+                <li>Phone / WhatsApp: <a href="tel:+27670092754">+27 67 009 2754</a></li>
+                <li>WhatsApp chat: <a href="https://wa.me/27670092754">wa.me/27670092754</a></li>
+                <li>Services: Residential &middot; Commercial &middot; Pet Turf &middot; Putting Green</li>
+            </ul>
+        </section>
+
+        <!-- ============ SERVICE AREA LOCATIONS (more than one, as required) ============ -->
+        <section class="locations">
+            <h2>Our Service Hubs</h2>
+
+            <article class="location">
+                <h3>Fourways Hub</h3>
+                <p>Fourways, Johannesburg, Gauteng, South Africa</p>
+                <!-- Embedded Google Map: to be reviewed/finalised once a physical address is confirmed -->
+                <iframe
+                    title="Map showing Fourways, Johannesburg service area"
+                    src="https://www.google.com/maps?q=Fourways,+Johannesburg&output=embed"
+                    width="100%" height="300" style="border:0;" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </article>
+
+            <article class="location">
+                <h3>Sandton Hub</h3>
+                <p>Sandton, Johannesburg, Gauteng, South Africa</p>
+                <iframe
+                    title="Map showing Sandton, Johannesburg service area"
+                    src="https://www.google.com/maps?q=Sandton,+Johannesburg&output=embed"
+                    width="100%" height="300" style="border:0;" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </article>
+        </section>
+
+        <!-- ============ GENERAL CONTACT FORM ============ -->
+        <!-- This form is for general messages, distinct from the service-quote -->
+        <!-- enquiry.html form. JavaScript email handling to be added in Part 3. -->
+        <section class="form-section">
+            <h2>Send Us a Message</h2>
+            <form id="contact-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="c-name">Full Name *</label>
+                    <input type="text" id="c-name" name="c-name" required minlength="2">
+                </div>
+
+                <div class="form-group">
+                    <label for="c-email">Email Address *</label>
+                    <input type="email" id="c-email" name="c-email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="c-phone">Phone Number</label>
+                    <input type="tel" id="c-phone" name="c-phone" pattern="[0-9+\s]{10,15}">
+                </div>
+
+                <div class="form-group">
+                    <label for="c-type">Message Type *</label>
+                    <select id="c-type" name="c-type" required>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="general">General Enquiry</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="complaint">Complaint</option>
+                        <option value="partnership">Partnership / Supplier</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="c-message">Message *</label>
+                    <textarea id="c-message" name="c-message" rows="6" required minlength="10"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+
+                <!-- Placeholder for the JavaScript-generated confirmation message (Part 3) -->
+                <p id="contact-response" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>New Leaf Luxury Lawn &mdash; Serving Johannesburg's Northern Suburbs</p>
+        <p>Tel/WhatsApp: <a href="tel:+27670092754">+27 67 009 2754</a></p>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Get a Quote</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2026 New Leaf Luxury Lawn. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
